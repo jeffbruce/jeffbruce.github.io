@@ -104,12 +104,24 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/timeline/stats.png"
+    date: "November 2015 - Present"
+    description: "Statistics tutor and ESL trainer."
+  - image: "/img/timeline/obi.png"
+    date: "September 2014 - October 2015"
+    description: "Neuroinformatician at Ontario Brain Institute.  Did statistics (Python and R) and web development to help analyze mouse brain data."
+  - image: "/img/timeline/transplus.png"
+    date: "November 2013 - August 2014"
+    description: "Software Engineer at TransPlus Systems Corp.  Worked on a team of developers building a Windows application for transportation logistics."
+  - image: "/img/timeline/mcmaster.png"
+    date: "September 2010 - August 2013"
+    description: "Master of Science in Experimental Psychology.  Conducted clinical hearing aid trials for an innovative hearing aid.  Learned more coding, how to conduct research properly, and advanced statistics."
+  - image: "/img/timeline/research-assistant.jpg"
+    date: "March 2010 - August 2010"
+    description: "Research assistant in a face perception lab at the University of Waterloo.  Programmed EEG experiments and helped with data processing."
+  - image: "/img/timeline/uwaterloo.png"
+    date: "September 2005 - August 2009"
+    description: "Bachelor of Computer Science and Psychology.  Learned elite coding and people reading skills."
 
 # First image of the Timeline
 
