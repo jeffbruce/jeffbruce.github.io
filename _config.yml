@@ -12,11 +12,11 @@ url: "https://jeffbruce.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl:
+baseurl: ""
 
 # Google tracking id to track your visitors
 
-google-tracking-id: "UA-35880426-4"
+google-tracking-id: "UA-71590566-1"
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
@@ -33,8 +33,8 @@ author: "Jeff Bruce"
 title: "{ Jeff Bruce }"
 description: "Blog and website of Jeff Bruce, blogging about tech, ideas, and other interesting topics. Opinions expressed are mine."
 keywords: "bruce, jeff, personal, jekyll, theme, blog, tech"
-favicon: "/img/favicon.ico"
-404-img: "/img/labtocat.png"
+favicon: "/img/favicon1.ico"
+404-img: "/img/design-404-2.png"
 
 ################
 # Header layout #
@@ -80,7 +80,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 # Blog #
 ########
 
-post-preview-words: 96
+post-preview-words: 48
 
 paginate: 5
 
@@ -104,7 +104,7 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/stats.png"
+  - image: "/img/timeline/stats1.png"
     date: "November 2015 - Present"
     description: "Statistics tutor and ESL trainer."
   - image: "/img/timeline/obi.png"
@@ -144,6 +144,10 @@ social:
     url: "https://twitter.com/jeffstevebruce"
   - title: "github"
     url: "https://github.com/jeffbruce/"
+  - title: "soundcloud"
+    url: "https://soundcloud.com/jeffstevebruce"
+  - title: "linkedin"
+    url: "https://ca.linkedin.com/in/brucejeff"
   - title: "rss"
     url: "/feed.xml"
 
@@ -151,7 +155,7 @@ social:
 # 404 page #
 ############
 
-404-img: "/img/labtocat.png"
+404-img: "/img/design-404-2.png"
 
 ################################################################################
 
