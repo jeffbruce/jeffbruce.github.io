@@ -12,11 +12,15 @@ url: "https://jeffbruce.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
+<<<<<<< HEAD
 baseurl:
+=======
+baseurl: ""
+>>>>>>> 79883b5d38bb182bdf8e5bbd6a127385965718dc
 
 # Google tracking id to track your visitors
 
-google-tracking-id: "UA-35880426-4"
+google-tracking-id: "UA-71590566-1"
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
@@ -31,10 +35,17 @@ force-https: True
 lang: "en"
 author: "Jeff Bruce"
 title: "{ Jeff Bruce }"
+<<<<<<< HEAD
 description: "Personal website of Jeff Bruce.  Opinions expressed are mine."
 keywords: "jeff, bruce, personal, blog, music, statistics, programming"
 favicon: "/img/favicon.ico"
 404-img: "/img/design-404.png"
+=======
+description: "Blog and website of Jeff Bruce, blogging about tech, ideas, and other interesting topics. Opinions expressed are mine."
+keywords: "bruce, jeff, personal, jekyll, theme, blog, tech"
+favicon: "/img/favicon1.ico"
+404-img: "/img/design-404-2.png"
+>>>>>>> 79883b5d38bb182bdf8e5bbd6a127385965718dc
 
 ################
 # Header layout #
@@ -48,6 +59,7 @@ background-img: "../img/intro-bg2.jpg"
 # Dynamic Text on the Header #
 ##############################
 
+<<<<<<< HEAD
 dynamic-typing: True
 shuffle: True # Shuffle the lines.
 loop: True
@@ -156,6 +168,18 @@ lines: # You can add HTML Tags in the Text
   - text: "Don't let what you cannot do interfere with what you can do. ~John R. Wooden"
   - text: "You may have to fight a battle more than once to win it. ~Margaret Thatcher"
   - text: "A man can be as great as he wants to be. If you believe in yourself and have the courage, the determination, the dedication, the competitive drive and if you are willing to sacrifice the little things in life and pay the price for the things that are worthwhile, it can be done. ~Vince Lombardi"
+=======
+# dynamic-typing: True
+# shuffle: True # Shuffle the lines.
+# loop: True
+# loop-count: False # Set False for infinite loop, or set any number for finite loop.
+# type-speed: 10
+# start-delay: 200
+# delete-delay: 5000
+# lines: # You can add HTML Tags in the Text
+  # - text: "The lower you fall, the higher you'll fly."
+  # - text: "Where’s your will to be weird?"
+>>>>>>> 79883b5d38bb182bdf8e5bbd6a127385965718dc
 
 me-img: "/img/author2.jpg"
 
@@ -178,7 +202,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 # Blog #
 ########
 
-post-preview-words: 96
+post-preview-words: 48
 
 paginate: 5
 
@@ -193,7 +217,11 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
+<<<<<<< HEAD
 # disqus-shortname: "thejeffbruce"
+=======
+disqus-shortname: "thejeffbruce"
+>>>>>>> 79883b5d38bb182bdf8e5bbd6a127385965718dc
 
 syntax-highlight: True
 
@@ -202,7 +230,11 @@ syntax-highlight: True
 ############
 
 events:
+<<<<<<< HEAD
   - image: "/img/timeline/stats.png"
+=======
+  - image: "/img/timeline/stats1.png"
+>>>>>>> 79883b5d38bb182bdf8e5bbd6a127385965718dc
     date: "November 2015 - Present"
     description: "Statistics tutor and ESL trainer."
   - image: "/img/timeline/obi.png"
@@ -215,7 +247,11 @@ events:
     date: "September 2010 - August 2013"
     description: "Master of Science in Experimental Psychology.  Conducted clinical hearing aid trials for an innovative hearing aid.  Learned more coding, how to conduct research properly, and advanced statistics."
   - image: "/img/timeline/research-assistant.jpg"
+<<<<<<< HEAD
     date: "March 2010 - August 2010"
+=======
+    date: "May 2010 - August 2010"
+>>>>>>> 79883b5d38bb182bdf8e5bbd6a127385965718dc
     description: "Research assistant in a face perception lab at the University of Waterloo.  Programmed EEG experiments and helped with data processing."
   - image: "/img/timeline/uwaterloo.png"
     date: "September 2005 - August 2009"
@@ -241,9 +277,17 @@ social:
   - title: "twitter"
     url: "https://twitter.com/jeffstevebruce"
   - title: "github"
+<<<<<<< HEAD
     url: "https://github.com/jeffbruce"
   - title: "bitcoin"
     url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+=======
+    url: "https://github.com/jeffbruce/"
+  - title: "soundcloud"
+    url: "https://soundcloud.com/jeffstevebruce"
+  - title: "linkedin"
+    url: "https://ca.linkedin.com/in/brucejeff"
+>>>>>>> 79883b5d38bb182bdf8e5bbd6a127385965718dc
   - title: "rss"
     url: "/feed.xml"
 
@@ -251,7 +295,11 @@ social:
 # 404 page #
 ############
 
+<<<<<<< HEAD
 404-img: "/img/design-404.png"
+=======
+404-img: "/img/design-404-2.png"
+>>>>>>> 79883b5d38bb182bdf8e5bbd6a127385965718dc
 
 ################################################################################
 
