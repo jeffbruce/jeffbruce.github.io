@@ -11,12 +11,8 @@ url: "https://jeffbruce.github.io"
 # then add in the baseurl here, like this: "/repository-name"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
-
-<<<<<<< HEAD
-baseurl:
-=======
 baseurl: ""
->>>>>>> 79883b5d38bb182bdf8e5bbd6a127385965718dc
+
 
 # Google tracking id to track your visitors
 
@@ -35,17 +31,10 @@ force-https: True
 lang: "en"
 author: "Jeff Bruce"
 title: "{ Jeff Bruce }"
-<<<<<<< HEAD
-description: "Personal website of Jeff Bruce.  Opinions expressed are mine."
-keywords: "jeff, bruce, personal, blog, music, statistics, programming"
-favicon: "/img/favicon.ico"
-404-img: "/img/design-404.png"
-=======
 description: "Blog and website of Jeff Bruce, blogging about tech, ideas, and other interesting topics. Opinions expressed are mine."
 keywords: "bruce, jeff, personal, jekyll, theme, blog, tech"
 favicon: "/img/favicon1.ico"
 404-img: "/img/design-404-2.png"
->>>>>>> 79883b5d38bb182bdf8e5bbd6a127385965718dc
 
 ################
 # Header layout #
@@ -59,116 +48,114 @@ background-img: "../img/intro-bg2.jpg"
 # Dynamic Text on the Header #
 ##############################
 
-<<<<<<< HEAD
-dynamic-typing: True
-shuffle: True # Shuffle the lines.
-loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 3 
-start-delay: 200
-delete-delay: 7000
-lines: # You can add HTML Tags in the Text
-  - text: "If you want to achieve greatness stop asking for permission. ~Anonymous"
-  - text: "Things work out best for those who make the best of how things work out. ~John Wooden"
-  - text: "To live a creative life, we must lose our fear of being wrong. ~Anonymous"
-  - text: "If you are not willing to risk the usual you will have to settle for the ordinary. ~Jim Rohn"
-  - text: "Trust because you are willing to accept the risk, not because it's safe or certain. ~Anonymous"
-  - text: "Take up one idea. Make that one idea your life - think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success. ~Swami Vivekananda"
-  - text: "All our dreams can come true if we have the courage to pursue them. ~Walt Disney"
-  - text: "Good things come to people who wait, but better things come to those who go out and get them. ~Anonymous"
-  - text: "If you do what you always did, you will get what you always got. ~Anonymous"
-  - text: "Success is walking from failure to failure with no loss of enthusiasm. ~Winston Churchill"
-  - text: "Just when the caterpillar thought the world was ending, he turned into a butterfly. ~Proverb"
-  - text: "Successful entrepreneurs are givers and not takers of positive energy. ~Anonymous"
-  - text: "Whenever you see a successful person you only see the public glories, never the private sacrifices to reach them. ~Vaibhav Shah"
-  - text: "Opportunities don't happen, you create them. ~Chris Grosser"
-  - text: "Try not to become a person of success, but rather try to become a person of value. ~Albert Einstein"
-  - text: "Great minds discuss ideas; average minds discuss events; small minds discuss people. ~Eleanor Roosevelt"
-  - text: "I have not failed. I've just found 10,000 ways that won't work. ~Thomas A. Edison"
-  - text: "If you don't value your time, neither will others. Stop giving away your time and talents - start charging for it. ~Kim Garst"
-  - text: "A successful man is one who can lay a firm foundation with the bricks others have thrown at him. ~David Brinkley"
-  - text: "No one can make you feel inferior without your consent. ~Eleanor Roosevelt"
-  - text: "The whole secret of a successful life is to find out what is one's destiny to do, and then do it. ~Henry Ford"
-  - text: "If you're going through hell keep going. ~Winston Churchill"
-  - text: "The ones who are crazy enough to think they can change the world, are the ones that do. ~Anonymous"
-  - text: "Don't raise your voice, improve your argument. ~Anonymous"
-  - text: "What seems to us as bitter trials are often blessings in disguise. ~Oscar Wilde"
-  - text: "The meaning of life is to find your gift. The purpose of life is to give it away. ~Anonymous"
-  - text: "The distance between insanity and genius is measured only by success. ~Bruce Feirstein"
-  - text: "When you stop chasing the wrong things you give the right things a chance to catch you. ~Lolly Daskal"
-  - text: "Don't be afraid to give up the good to go for the great. ~John D. Rockefeller"
-  - text: "No masterpiece was ever created by a lazy artist. ~Anonymous"
-  - text: "Happiness is a butterfly, which when pursued, is always beyond your grasp, but which, if you will sit down quietly, may alight upon you. ~Nathaniel Hawthorne"
-  - text: "If you can't explain it simply, you don't understand it well enough. ~Albert Einstein"
-  - text: "Blessed are those who can give without remembering and take without forgetting. ~Anonymous"
-  - text: "Do one thing every day that scares you. ~Anonymous"
-  - text: "What's the point of being alive if you don't at least try to do something remarkable. ~Anonymous"
-  - text: "Life is not about finding yourself. Life is about creating yourself. ~Lolly Daskal"
-  - text: "Nothing in the world is more common than unsuccessful people with talent. ~Anonymous"
-  - text: "Knowledge is being aware of what you can do. Wisdom is knowing when not to do it. ~Anonymous"
-  - text: "Your problem isn't the problem. Your reaction is the problem. ~Anonymous"
-  - text: "You can do anything, but not everything. ~Anonymous"
-  - text: "Innovation distinguishes between a leader and a follower. ~Steve Jobs"
-  - text: "There are two types of people who will tell you that you cannot make a difference in this world: those who are afraid to try and those who are afraid you will succeed. ~Ray Goforth"
-  - text: "Thinking should become your capital asset, no matter whatever ups and downs you come across in your life. ~Dr. APJ Kalam"
-  - text: "I find that the harder I work, the more luck I seem to have. ~Thomas Jefferson"
-  - text: "The starting point of all achievement is desire. ~Napolean Hill"
-  - text: "Success is the sum of small efforts, repeated day-in and day-out. ~Robert Collier"
-  - text: "If you want to achieve excellence, you can get there today. As of this second, quit doing less-than-excellent work. ~Thomas J. Watson"
-  - text: "All progress takes place outside the comfort zone. ~Michael John Bobak"
-  - text: "You may only succeed if you desire succeeding; you may only fail if you do not mind failing. ~Philippos"
-  - text: "Courage is resistance to fear, mastery of fear - not absense of fear. ~Mark Twain"
-  - text: "Only put off until tomorrow what you are willing to die having left undone. ~Pablo Picasso"
-  - text: "People often say that motivation doesn't last. Well, neither does bathing - that's why we recommend it daily. ~Zig Ziglar"
-  - text: "We become what we think about most of the time, and that's the strangest secret. ~Earl Nightingale"
-  - text: "The only place where success comes before work is in the dictionary. ~Vidal Sassoon"
-  - text: "The best reason to start an organization is to make meaning; to create a product or service to make the world a better place. ~Guy Kawasaki"
-  - text: "I find that when you have a real interest in life and a curious life, that sleep is not the most important thing. ~Martha Stewart"
-  - text: "It's not what you look at that matters, it's what you see. ~Anonymous"
-  - text: "The road to success and the road to failure are almost exactly the same. ~Colin R. Davis"
-  - text: "The function of leadership is to produce more leaders, not more followers. ~Ralph Nader"
-  - text: "Success is liking yourself, liking what you do, and liking how you do it. ~Maya Angelou"
-  - text: "As we look ahead into the next century, leaders will be those who empower others. ~Bill Gates"
-  - text: "A real entrepreneur is somebody who has no safety net underneath them. ~Henry Kravis"
-  - text: "The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself. ~Mark Caine"
-  - text: "People who succeed have momentum. The more they succeed, the more they want to succeed, and the more they find a way to succeed. Similarly, when someone is failing, the tendency is to get on a downward spiral that can even become a self-fulfilling prophecy. ~Tony Robbins"
-  - text: "When I dare to be powerful - to use my strength in the service of my vision, then it becomes less and less important whether I am afraid. ~Audre Lorde"
-  - text: "Whenever you find yourself on the side of the majority, it is time to pause and reflect. ~Mark Twain"
-  - text: "The successful warrior is the average man, with laser-like focus. ~Bruce Lee"
-  - text: "Take up one idea. Make that one idea your life -- think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success. ~Swami Vivekananda"
-  - text: "Develop success from failures. Discouragement and failure are two of the surest stepping stones to success. ~Dale Carnegie"
-  - text: "If you don't design your own life plan, chances are you'll fall into someone else's plan. And guess what they have planned for you? Not much. ~Jim Rohn"
-  - text: "If you genuinely want something, don't wait for it -- teach yourself to be impatient. ~Gurbaksh Chahal"
-  - text: "Don't let the fear of losing be greater than the excitement of winning. ~Robert Kiyosaki"
-  - text: "If you want to make a permanent change, stop focusing on the size of your problems and start focusing on the size of you! ~T. Harv Eker"
-  - text: "You can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something - your gut, destiny, life, karma, whatever. This approach has never let me down, and it has made all the difference in my life. ~Steve Jobs"
-  - text: "Successful people do what unsuccessful people are not willing to doDon't wish it were easier, wish you were better. ~Jim Rohn"
-  - text: "The number one reason people fail in life is because they listen to their friends, family, and neighbors. ~Napoleon Hill"
-  - text: "The reason most people never reach their goals is that they don't define them, or ever seriously consider them as believable or achievable. Winners can tell you where they are going, what they plan to do along the way, and who will be sharing the adventure with them. ~Denis Watiley"
-  - text: "In my experience, there is only one motivation, and that is desire. No reasons or principle contain it or stand against it. ~Jane Smiley"
-  - text: "Success does not consist in never making mistakes but in never making the same one a second time. ~George Bernard Shaw"
-  - text: "I don't want to get to the end of my life and find that I lived just the length of it. I want to have lived the width of it as well. ~Diane Ackerman"
-  - text: "You must expect great things of yourself before you can do them. ~Michael Jordan"
-  - text: "Motivation is what gets you started. Habit is what keeps you going. ~Jim Ryun"
-  - text: "People rarely succeed unless they have fun in what they are doing. ~Dale Carnegie"
-  - text: "There is no chance, no destiny, no fate, that can hinder or control the firm resolve of a determined soul. ~Ella Wheeler Wilcox"
-  - text: "Our greatest fear should not be of failure but of succeeding at things in life that don't really matter. ~Francis Chan"
-  - text: "You've got to get up every morning with determination if you're going to go to bed with satisfaction. ~George Lorimer"
-  - text: "To be successful you must accept all challenges that come your way. You can't just accept the ones you like. ~Mike Gafka"
-  - text: "Success is...knowing your purpose in life, growing to reach your maximum potential, and sowing seeds that benefit others. ~John C. Maxwell"
-  - text: "Be miserable. Or motivate yourself. Whatever has to be done, it's always your choice. ~Wayne Dyer"
-  - text: "To accomplish great things, we must not only act, but also dream, not only plan, but also believe. ~Anatole France"
-  - text: "Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no help at all. ~Dale Carnegie"
-  - text: "You measure the size of the accomplishment by the obstacles you had to overcome to reach your goals. ~Booker T. Washington"
-  - text: "Real difficulties can be overcome; it is only the imaginary ones that are unconquerable. ~Theodore N. Vail"
-  - text: "It is better to fail in originality than to succeed in imitation. ~Herman Melville"
-  - text: "Fortune sides with him who dares. ~Virgil"
-  - text: "Little minds are tamed and subdued by misfortune; but great minds rise above it. ~Washington Irving"
-  - text: "Failure is the condiment that gives success its flavor. ~Truman Capote"
-  - text: "Don't let what you cannot do interfere with what you can do. ~John R. Wooden"
-  - text: "You may have to fight a battle more than once to win it. ~Margaret Thatcher"
-  - text: "A man can be as great as he wants to be. If you believe in yourself and have the courage, the determination, the dedication, the competitive drive and if you are willing to sacrifice the little things in life and pay the price for the things that are worthwhile, it can be done. ~Vince Lombardi"
-=======
+# dynamic-typing: True
+# shuffle: True # Shuffle the lines.
+# loop: True
+# loop-count: False # Set False for infinite loop, or set any number for finite loop.
+# type-speed: 3 
+# start-delay: 200
+# delete-delay: 7000
+# lines: # You can add HTML Tags in the Text
+#   - text: "If you want to achieve greatness stop asking for permission. ~Anonymous"
+#   - text: "Things work out best for those who make the best of how things work out. ~John Wooden"
+#   - text: "To live a creative life, we must lose our fear of being wrong. ~Anonymous"
+#   - text: "If you are not willing to risk the usual you will have to settle for the ordinary. ~Jim Rohn"
+#   - text: "Trust because you are willing to accept the risk, not because it's safe or certain. ~Anonymous"
+#   - text: "Take up one idea. Make that one idea your life - think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success. ~Swami Vivekananda"
+#   - text: "All our dreams can come true if we have the courage to pursue them. ~Walt Disney"
+#   - text: "Good things come to people who wait, but better things come to those who go out and get them. ~Anonymous"
+#   - text: "If you do what you always did, you will get what you always got. ~Anonymous"
+#   - text: "Success is walking from failure to failure with no loss of enthusiasm. ~Winston Churchill"
+#   - text: "Just when the caterpillar thought the world was ending, he turned into a butterfly. ~Proverb"
+#   - text: "Successful entrepreneurs are givers and not takers of positive energy. ~Anonymous"
+#   - text: "Whenever you see a successful person you only see the public glories, never the private sacrifices to reach them. ~Vaibhav Shah"
+#   - text: "Opportunities don't happen, you create them. ~Chris Grosser"
+#   - text: "Try not to become a person of success, but rather try to become a person of value. ~Albert Einstein"
+#   - text: "Great minds discuss ideas; average minds discuss events; small minds discuss people. ~Eleanor Roosevelt"
+#   - text: "I have not failed. I've just found 10,000 ways that won't work. ~Thomas A. Edison"
+#   - text: "If you don't value your time, neither will others. Stop giving away your time and talents - start charging for it. ~Kim Garst"
+#   - text: "A successful man is one who can lay a firm foundation with the bricks others have thrown at him. ~David Brinkley"
+#   - text: "No one can make you feel inferior without your consent. ~Eleanor Roosevelt"
+#   - text: "The whole secret of a successful life is to find out what is one's destiny to do, and then do it. ~Henry Ford"
+#   - text: "If you're going through hell keep going. ~Winston Churchill"
+#   - text: "The ones who are crazy enough to think they can change the world, are the ones that do. ~Anonymous"
+#   - text: "Don't raise your voice, improve your argument. ~Anonymous"
+#   - text: "What seems to us as bitter trials are often blessings in disguise. ~Oscar Wilde"
+#   - text: "The meaning of life is to find your gift. The purpose of life is to give it away. ~Anonymous"
+#   - text: "The distance between insanity and genius is measured only by success. ~Bruce Feirstein"
+#   - text: "When you stop chasing the wrong things you give the right things a chance to catch you. ~Lolly Daskal"
+#   - text: "Don't be afraid to give up the good to go for the great. ~John D. Rockefeller"
+#   - text: "No masterpiece was ever created by a lazy artist. ~Anonymous"
+#   - text: "Happiness is a butterfly, which when pursued, is always beyond your grasp, but which, if you will sit down quietly, may alight upon you. ~Nathaniel Hawthorne"
+#   - text: "If you can't explain it simply, you don't understand it well enough. ~Albert Einstein"
+#   - text: "Blessed are those who can give without remembering and take without forgetting. ~Anonymous"
+#   - text: "Do one thing every day that scares you. ~Anonymous"
+#   - text: "What's the point of being alive if you don't at least try to do something remarkable. ~Anonymous"
+#   - text: "Life is not about finding yourself. Life is about creating yourself. ~Lolly Daskal"
+#   - text: "Nothing in the world is more common than unsuccessful people with talent. ~Anonymous"
+#   - text: "Knowledge is being aware of what you can do. Wisdom is knowing when not to do it. ~Anonymous"
+#   - text: "Your problem isn't the problem. Your reaction is the problem. ~Anonymous"
+#   - text: "You can do anything, but not everything. ~Anonymous"
+#   - text: "Innovation distinguishes between a leader and a follower. ~Steve Jobs"
+#   - text: "There are two types of people who will tell you that you cannot make a difference in this world: those who are afraid to try and those who are afraid you will succeed. ~Ray Goforth"
+#   - text: "Thinking should become your capital asset, no matter whatever ups and downs you come across in your life. ~Dr. APJ Kalam"
+#   - text: "I find that the harder I work, the more luck I seem to have. ~Thomas Jefferson"
+#   - text: "The starting point of all achievement is desire. ~Napolean Hill"
+#   - text: "Success is the sum of small efforts, repeated day-in and day-out. ~Robert Collier"
+#   - text: "If you want to achieve excellence, you can get there today. As of this second, quit doing less-than-excellent work. ~Thomas J. Watson"
+#   - text: "All progress takes place outside the comfort zone. ~Michael John Bobak"
+#   - text: "You may only succeed if you desire succeeding; you may only fail if you do not mind failing. ~Philippos"
+#   - text: "Courage is resistance to fear, mastery of fear - not absense of fear. ~Mark Twain"
+#   - text: "Only put off until tomorrow what you are willing to die having left undone. ~Pablo Picasso"
+#   - text: "People often say that motivation doesn't last. Well, neither does bathing - that's why we recommend it daily. ~Zig Ziglar"
+#   - text: "We become what we think about most of the time, and that's the strangest secret. ~Earl Nightingale"
+#   - text: "The only place where success comes before work is in the dictionary. ~Vidal Sassoon"
+#   - text: "The best reason to start an organization is to make meaning; to create a product or service to make the world a better place. ~Guy Kawasaki"
+#   - text: "I find that when you have a real interest in life and a curious life, that sleep is not the most important thing. ~Martha Stewart"
+#   - text: "It's not what you look at that matters, it's what you see. ~Anonymous"
+#   - text: "The road to success and the road to failure are almost exactly the same. ~Colin R. Davis"
+#   - text: "The function of leadership is to produce more leaders, not more followers. ~Ralph Nader"
+#   - text: "Success is liking yourself, liking what you do, and liking how you do it. ~Maya Angelou"
+#   - text: "As we look ahead into the next century, leaders will be those who empower others. ~Bill Gates"
+#   - text: "A real entrepreneur is somebody who has no safety net underneath them. ~Henry Kravis"
+#   - text: "The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself. ~Mark Caine"
+#   - text: "People who succeed have momentum. The more they succeed, the more they want to succeed, and the more they find a way to succeed. Similarly, when someone is failing, the tendency is to get on a downward spiral that can even become a self-fulfilling prophecy. ~Tony Robbins"
+#   - text: "When I dare to be powerful - to use my strength in the service of my vision, then it becomes less and less important whether I am afraid. ~Audre Lorde"
+#   - text: "Whenever you find yourself on the side of the majority, it is time to pause and reflect. ~Mark Twain"
+#   - text: "The successful warrior is the average man, with laser-like focus. ~Bruce Lee"
+#   - text: "Take up one idea. Make that one idea your life -- think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success. ~Swami Vivekananda"
+#   - text: "Develop success from failures. Discouragement and failure are two of the surest stepping stones to success. ~Dale Carnegie"
+#   - text: "If you don't design your own life plan, chances are you'll fall into someone else's plan. And guess what they have planned for you? Not much. ~Jim Rohn"
+#   - text: "If you genuinely want something, don't wait for it -- teach yourself to be impatient. ~Gurbaksh Chahal"
+#   - text: "Don't let the fear of losing be greater than the excitement of winning. ~Robert Kiyosaki"
+#   - text: "If you want to make a permanent change, stop focusing on the size of your problems and start focusing on the size of you! ~T. Harv Eker"
+#   - text: "You can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something - your gut, destiny, life, karma, whatever. This approach has never let me down, and it has made all the difference in my life. ~Steve Jobs"
+#   - text: "Successful people do what unsuccessful people are not willing to doDon't wish it were easier, wish you were better. ~Jim Rohn"
+#   - text: "The number one reason people fail in life is because they listen to their friends, family, and neighbors. ~Napoleon Hill"
+#   - text: "The reason most people never reach their goals is that they don't define them, or ever seriously consider them as believable or achievable. Winners can tell you where they are going, what they plan to do along the way, and who will be sharing the adventure with them. ~Denis Watiley"
+#   - text: "In my experience, there is only one motivation, and that is desire. No reasons or principle contain it or stand against it. ~Jane Smiley"
+#   - text: "Success does not consist in never making mistakes but in never making the same one a second time. ~George Bernard Shaw"
+#   - text: "I don't want to get to the end of my life and find that I lived just the length of it. I want to have lived the width of it as well. ~Diane Ackerman"
+#   - text: "You must expect great things of yourself before you can do them. ~Michael Jordan"
+#   - text: "Motivation is what gets you started. Habit is what keeps you going. ~Jim Ryun"
+#   - text: "People rarely succeed unless they have fun in what they are doing. ~Dale Carnegie"
+#   - text: "There is no chance, no destiny, no fate, that can hinder or control the firm resolve of a determined soul. ~Ella Wheeler Wilcox"
+#   - text: "Our greatest fear should not be of failure but of succeeding at things in life that don't really matter. ~Francis Chan"
+#   - text: "You've got to get up every morning with determination if you're going to go to bed with satisfaction. ~George Lorimer"
+#   - text: "To be successful you must accept all challenges that come your way. You can't just accept the ones you like. ~Mike Gafka"
+#   - text: "Success is...knowing your purpose in life, growing to reach your maximum potential, and sowing seeds that benefit others. ~John C. Maxwell"
+#   - text: "Be miserable. Or motivate yourself. Whatever has to be done, it's always your choice. ~Wayne Dyer"
+#   - text: "To accomplish great things, we must not only act, but also dream, not only plan, but also believe. ~Anatole France"
+#   - text: "Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no help at all. ~Dale Carnegie"
+#   - text: "You measure the size of the accomplishment by the obstacles you had to overcome to reach your goals. ~Booker T. Washington"
+#   - text: "Real difficulties can be overcome; it is only the imaginary ones that are unconquerable. ~Theodore N. Vail"
+#   - text: "It is better to fail in originality than to succeed in imitation. ~Herman Melville"
+#   - text: "Fortune sides with him who dares. ~Virgil"
+#   - text: "Little minds are tamed and subdued by misfortune; but great minds rise above it. ~Washington Irving"
+#   - text: "Failure is the condiment that gives success its flavor. ~Truman Capote"
+#   - text: "Don't let what you cannot do interfere with what you can do. ~John R. Wooden"
+#   - text: "You may have to fight a battle more than once to win it. ~Margaret Thatcher"
+#   - text: "A man can be as great as he wants to be. If you believe in yourself and have the courage, the determination, the dedication, the competitive drive and if you are willing to sacrifice the little things in life and pay the price for the things that are worthwhile, it can be done. ~Vince Lombardi"
 # dynamic-typing: True
 # shuffle: True # Shuffle the lines.
 # loop: True
@@ -179,7 +166,6 @@ lines: # You can add HTML Tags in the Text
 # lines: # You can add HTML Tags in the Text
   # - text: "The lower you fall, the higher you'll fly."
   # - text: "Where’s your will to be weird?"
->>>>>>> 79883b5d38bb182bdf8e5bbd6a127385965718dc
 
 me-img: "/img/author2.jpg"
 
@@ -217,11 +203,9 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
-<<<<<<< HEAD
-# disqus-shortname: "thejeffbruce"
-=======
+
 disqus-shortname: "thejeffbruce"
->>>>>>> 79883b5d38bb182bdf8e5bbd6a127385965718dc
+
 
 syntax-highlight: True
 
@@ -230,11 +214,7 @@ syntax-highlight: True
 ############
 
 events:
-<<<<<<< HEAD
-  - image: "/img/timeline/stats.png"
-=======
   - image: "/img/timeline/stats1.png"
->>>>>>> 79883b5d38bb182bdf8e5bbd6a127385965718dc
     date: "November 2015 - Present"
     description: "Statistics tutor and ESL trainer."
   - image: "/img/timeline/obi.png"
@@ -247,11 +227,7 @@ events:
     date: "September 2010 - August 2013"
     description: "Master of Science in Experimental Psychology.  Conducted clinical hearing aid trials for an innovative hearing aid.  Learned more coding, how to conduct research properly, and advanced statistics."
   - image: "/img/timeline/research-assistant.jpg"
-<<<<<<< HEAD
-    date: "March 2010 - August 2010"
-=======
     date: "May 2010 - August 2010"
->>>>>>> 79883b5d38bb182bdf8e5bbd6a127385965718dc
     description: "Research assistant in a face perception lab at the University of Waterloo.  Programmed EEG experiments and helped with data processing."
   - image: "/img/timeline/uwaterloo.png"
     date: "September 2005 - August 2009"
@@ -277,17 +253,11 @@ social:
   - title: "twitter"
     url: "https://twitter.com/jeffstevebruce"
   - title: "github"
-<<<<<<< HEAD
     url: "https://github.com/jeffbruce"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
-=======
-    url: "https://github.com/jeffbruce/"
   - title: "soundcloud"
     url: "https://soundcloud.com/jeffstevebruce"
   - title: "linkedin"
     url: "https://ca.linkedin.com/in/brucejeff"
->>>>>>> 79883b5d38bb182bdf8e5bbd6a127385965718dc
   - title: "rss"
     url: "/feed.xml"
 
@@ -295,11 +265,8 @@ social:
 # 404 page #
 ############
 
-<<<<<<< HEAD
-404-img: "/img/design-404.png"
-=======
+
 404-img: "/img/design-404-2.png"
->>>>>>> 79883b5d38bb182bdf8e5bbd6a127385965718dc
 
 ################################################################################
 
