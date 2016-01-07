@@ -6,7 +6,7 @@ category: tech
 tags: [ 'tech' ]
 ---
 
-This blog post is about setting up a personal website, so let's roll up our sleeves and get cracking.  Don't have any sleeves?  Roll up your pant legs.  Not wearing any pants?  I like your style.  
+This blog post is about setting up a personal website, so let's roll up our sleeves and get cracking.  
 
 The goal here is to point readers who are thinking about setting up a personal website in the right direction.  What do you want out of your personal website?  In my case, I wanted a versatile website that I could use for a few different purposes.  Specifically, I wanted a website that could serve (no pun intended) as a professional landing page, a personal blog, and to host music that I've composed over the years.  Wordpress runs approximately 25% of the internet as of Dec 2015, so initially I was going to go with Wordpress since the large adoption rate must mean it's easy to use.  However, I had a Wordpress blog maybe 5 years ago but it was a little clunky, and I wanted to try out some new tech.  So I got in touch with a friend of mine who has done a lot of web development over the years, and he suggested I give Jekyll a shot.  
 
