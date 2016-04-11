@@ -30,9 +30,9 @@ You'll notice in the previous paragraph that I started listing attributes that m
 
 I could probably go on and on about this topic, but the goal here was sort of a stream of consciousness exercise to get these ideas out of my head and into the wild.  I haven't fleshed out many of these ideas as much as I'd like to, but I don't want to spend my whole day doing so.  In summary, here are the take home messages:
 
-1) Menus should have pictures.  It would be more efficient for both consumers _and_ restaurateurs.
-2) Restaurant discovery software could be improved by factoring in personal preferences that vary by day, time, and social situation.
-3) Restaurant discovery software should be item-based, not restaurant-based.
+1. Menus should have pictures.  It would be more efficient for both consumers _and_ restaurateurs.
+2. Restaurant discovery software could be improved by factoring in personal preferences that vary by day, time, and social situation.
+3. Restaurant discovery software should be item-based, not restaurant-based.
 
 Extra Bits
 
