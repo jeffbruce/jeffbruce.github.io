@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: The Enduring Yearning For Savory Flavors
 category: food
-tags: [ 'food' 'personalization' ]
+tags: [ 'food', 'personalization' ]
 ---
 
 Food.  It plays a huge part in every person's life.  For me, it plays as big of a role as, and even possibly more than, friends and family.  It brings us together.  It tears us apart.  Given its importance for every human on Earth, I thought I'd share some thoughts about it.
