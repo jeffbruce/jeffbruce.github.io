@@ -36,4 +36,4 @@ I could probably go on and on about this topic, but the goal here was sort of a 
 
 Extra Bits
 
-While writing this article, I had a funny idea for a website/app.  Imagine an app where you can broadcast to your friends your desire to get food, and propose a few restaurant ideas that people can vote on, then a countdown begins with a time limit, encouraging people to reply if they're on the fence.  If people don't like your restaurant suggestions, they can fire off a counter-proposal and make a game of it.  A restaurant is automatically decided upon this way, and it would be a fun game in and of itself.  
+While writing this article, I had a funny idea for a website/app.  Imagine an app where you selectively broadcast to your friends your desire to get food.  You would propose a few restaurant ideas that people can vote on, then a countdown begins with a time limit, encouraging replies from friends who are on the fence.  If people didn't like your restaurant suggestion(s), they'd be given the option of firing off a counter-proposal, making a game of it.  A restaurant would automatically be decided upon in this way, which would be a fun game in and of itself.  
