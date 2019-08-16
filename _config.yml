@@ -214,8 +214,11 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "/img/timeline/zynga.png"
+    date: "Apr 2016 - June 2019"
+    description: "Data engineer/scientist at Zynga."
   - image: "/img/timeline/stats1.png"
-    date: "November 2015 - Present"
+    date: "November 2015 - Mar 2016"
     description: "Statistics tutor and ESL trainer."
   - image: "/img/timeline/obi.png"
     date: "September 2014 - October 2015"
